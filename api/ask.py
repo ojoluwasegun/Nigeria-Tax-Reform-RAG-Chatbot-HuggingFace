@@ -12,7 +12,7 @@ app = Flask(__name__)
 # Hugging Face API settings
 # -------------------------------
 HF_API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-base"
-HF_TOKEN = os.environ.get("HF_TOKEN")  # set this in Vercel or locally
+HF_TOKEN = os.environ.get("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")  # set this in Vercel or locally
 
 def generate_answer(prompt):
     """Call Hugging Face Inference API for text generation"""
